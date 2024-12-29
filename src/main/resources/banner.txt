@@ -12,5 +12,11 @@
 
    - Discover. Cook. Enjoy. Repeat. -
 
-${spring.application.name} :: ${spring.application.version}
-Built with Spring Boot :: ${spring-boot.version}
+Created by: Serge Oliveira Sardinha
+
+Application: ${spring.application.name}
+Version    : ${spring.application.version:Unknown}
+Spring Boot: ${spring-boot.version}
+Java       : ${java.version}
+
+----
