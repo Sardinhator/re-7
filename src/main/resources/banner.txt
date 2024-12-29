@@ -15,7 +15,7 @@
 Created by: Serge Oliveira Sardinha
 
 Application: ${spring.application.name}
-Version    : ${spring.application.version:Unknown}
+Version    : ${spring.application.version}
 Spring Boot: ${spring-boot.version}
 Java       : ${java.version}
 
