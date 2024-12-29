@@ -1,0 +1,16 @@
+
+  _____           _                   _
+ |  __ \         (_)                 | |
+ | |__) |___  ___ _ _ __   ___  ___  | |
+ |  _  // _ \/ __| | '_ \ / _ \/ __| | |
+ | | \ \  __/ (__| | |_) |  __/\__ \ |_|
+ |_|  \_\___|\___|_| .__/ \___||___/ (_)
+                   | |
+                   |_|
+
+      WELCOME TO THE RECIPE MANAGER 🍴
+
+   - Discover. Cook. Enjoy. Repeat. -
+
+${spring.application.name} :: ${spring.application.version}
+Built with Spring Boot :: ${spring-boot.version}
