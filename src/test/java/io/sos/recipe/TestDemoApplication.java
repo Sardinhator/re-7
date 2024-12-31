@@ -1,4 +1,4 @@
-package io.sos.recette;
+package io.sos.recipe;
 
 import org.springframework.boot.SpringApplication;
 
