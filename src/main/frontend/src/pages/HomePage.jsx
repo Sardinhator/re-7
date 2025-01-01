@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 const HomePage = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
+    const navigate = useNavigate();
 
     const handleLogin = async (event) => {
         event.preventDefault();
@@ -19,6 +20,7 @@ const HomePage = () => {
             // Save the token in localStorage/cookies
             localStorage.setItem('token', response.data.token);
             alert('Login successful!');
+            navigate('/welcome'); // Redirect to the welcome page
         } catch (error) {
             setError('Invalid username or password');
         }
@@ -30,6 +32,7 @@ const HomePage = () => {
             <p>Explore recipes, register to save your favorites, and start cooking!</p>
 
             <div style={{ marginTop: '30px' }}>
+                <h2>Login</h2>
                 {error && <p style={{ color: 'red' }}>{error}</p>}
                 <form onSubmit={handleLogin}>
                     <div>
