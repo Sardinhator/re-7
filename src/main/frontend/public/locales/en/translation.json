@@ -1,0 +1,16 @@
+{
+    "welcome": "Welcome to the Recipe App",
+    "description": "Explore recipes, register to save your favorites, and start cooking!",
+    "login": {
+      "title": "Login",
+      "usernamePlaceholder": "Username",
+      "passwordPlaceholder": "Password",
+      "button": "Login",
+      "success": "Login successful!",
+      "invalid": "Invalid username or password"
+    },
+    "register": {
+      "button": "Register Now !"
+    }
+  }
+  

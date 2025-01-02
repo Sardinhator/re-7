@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { useTranslation } from 'react-i18next';
 
 const HomePage = () => {
+    const { t } = useTranslation(); // Import translation hook
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
@@ -19,26 +21,26 @@ const HomePage = () => {
 
             // Save the token in localStorage/cookies
             localStorage.setItem('token', response.data.token);
-            alert('Login successful!');
+            alert(t('login.success')); // Use translation for success message
             navigate('/welcome'); // Redirect to the welcome page
         } catch (error) {
-            setError('Invalid username or password');
+            setError(t('login.invalid')); // Use translation for error message
         }
     };
 
     return (
         <div style={{ textAlign: 'center', marginTop: '50px' }}>
-            <h1>Welcome to the Recipe App</h1>
-            <p>Explore recipes, register to save your favorites, and start cooking!</p>
+            <h1>{t('welcome')}</h1>
+            <p>{t('description')}</p>
 
             <div style={{ marginTop: '30px' }}>
-                <h2>Login</h2>
+                <h2>{t('login.title')}</h2>
                 {error && <p style={{ color: 'red' }}>{error}</p>}
                 <form onSubmit={handleLogin}>
                     <div>
                         <input
                             type="text"
-                            placeholder="Username"
+                            placeholder={t('login.usernamePlaceholder')} // Translated placeholder
                             value={username}
                             onChange={(e) => setUsername(e.target.value)}
                             required
@@ -53,7 +55,7 @@ const HomePage = () => {
                     <div>
                         <input
                             type="password"
-                            placeholder="Password"
+                            placeholder={t('login.passwordPlaceholder')} // Translated placeholder
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
                             required
@@ -78,7 +80,7 @@ const HomePage = () => {
                             marginBottom: '20px', // Add margin-bottom for spacing
                         }}
                     >
-                        Login
+                        {t('login.button')}
                     </button>
                 </form>
             </div>
@@ -95,7 +97,7 @@ const HomePage = () => {
                         cursor: 'pointer',
                     }}
                 >
-                    Register Now !
+                    {t('register.button')}
                 </button>
             </Link>
         </div>
