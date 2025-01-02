@@ -23,7 +23,7 @@ public class JwtService {
                 .issuedAt(now)
                 .expiresAt(now.plusSeconds(3600)) // 1-hour expiration
                 .subject(username)
-                .claim("scope", "ROLE_USER") // Example claim
+                .claim("roles", "USER") // Example claim
                 .build();
         return jwtEncoder.encode(JwtEncoderParameters.from(claims)).getTokenValue();
     }
