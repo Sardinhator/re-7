@@ -1,3 +1,0 @@
-ALTER TABLE recipes
-MODIFY COLUMN ingredients JSON NOT NULL,
-MODIFY COLUMN instructions JSON NOT NULL;
