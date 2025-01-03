@@ -12,10 +12,13 @@
   "register": {
     "button": "Inscrivez-vous maintenant !"
   },
-  "welcomeBack": {
-    "title": "Bienvenue !",
-    "description": "Nous sommes ravis de vous revoir. Explorez vos recettes préférées ou découvrez-en de nouvelles !",
-    "button": "Commencez à explorer",
-    "alert": "Commencez à explorer des recettes !"
+"welcomeBack": {
+    "title": "Bienvenue à nouveau !",
+    "description": "Que souhaitez-vous faire aujourd'hui ?",
+    "addRecipeButton": "Ajouter une recette",
+    "addRecipeAlert": "Redirection pour ajouter une nouvelle recette !",
+    "searchPlaceholder": "Rechercher une recette...",
+    "searchButton": "Rechercher",
+    "searchAlert": "Recherche de"
   }
 }

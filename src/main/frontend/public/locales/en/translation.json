@@ -14,8 +14,11 @@
   },
   "welcomeBack": {
     "title": "Welcome Back!",
-    "description": "We are glad to see you again. Explore your favorite recipes or discover new ones!",
-    "button": "Start Exploring",
-    "alert": "Start exploring recipes!"
+    "description": "What would you like to do today?",
+    "addRecipeButton": "Add Recipe",
+    "addRecipeAlert": "Redirecting to add a new recipe!",
+    "searchPlaceholder": "Search for a recipe...",
+    "searchButton": "Search",
+    "searchAlert": "Searching for"
   }
 }
