@@ -1,16 +1,21 @@
 {
-    "welcome": "Bem-vindo ao aplicativo de receitas",
-    "description": "Explore receitas, registre-se para salvar seus favoritos e comece a cozinhar!",
-    "login": {
-      "title": "Entrar",
-      "usernamePlaceholder": "Nome de usuário",
-      "passwordPlaceholder": "Senha",
-      "button": "Entrar",
-      "success": "Login bem-sucedido!",
-      "invalid": "Nome de usuário ou senha inválidos"
-    },
-    "register": {
-      "button": "Registre-se agora!"
-    }
+  "welcome": "Bem-vindo ao aplicativo de receitas",
+  "description": "Explore receitas, registre-se para salvar seus favoritos e comece a cozinhar!",
+  "login": {
+    "title": "Entrar",
+    "usernamePlaceholder": "Nome de usuário",
+    "passwordPlaceholder": "Senha",
+    "button": "Entrar",
+    "success": "Login bem-sucedido!",
+    "invalid": "Nome de usuário ou senha inválidos"
+  },
+  "register": {
+    "button": "Registre-se agora!"
+  },
+  "welcomeBack": {
+    "title": "Bem-vindo de volta!",
+    "description": "Estamos felizes em vê-lo novamente. Explore suas receitas favoritas ou descubra novas!",
+    "button": "Comece a explorar",
+    "alert": "Comece a explorar receitas!"
   }
-  
+}

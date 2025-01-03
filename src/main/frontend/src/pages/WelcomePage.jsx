@@ -1,10 +1,13 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const WelcomePage = () => {
+    const { t } = useTranslation(); // Import translation hook
+
     return (
         <div style={{ textAlign: 'center', marginTop: '50px' }}>
-            <h1>Welcome Back!</h1>
-            <p>We are glad to see you again. Explore your favorite recipes or discover new ones!</p>
+            <h1>{t('welcomeBack.title')}</h1>
+            <p>{t('welcomeBack.description')}</p>
             <button
                 style={{
                     padding: '10px 20px',
@@ -15,9 +18,9 @@ const WelcomePage = () => {
                     borderRadius: '5px',
                     cursor: 'pointer',
                 }}
-                onClick={() => alert('Start exploring recipes!')}
+                onClick={() => alert(t('welcomeBack.alert'))}
             >
-                Start Exploring
+                {t('welcomeBack.button')}
             </button>
         </div>
     );

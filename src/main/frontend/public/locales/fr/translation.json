@@ -1,16 +1,21 @@
 {
-    "welcome": "Bienvenue sur l'application de recettes",
-    "description": "Explorez des recettes, enregistrez vos favoris et commencez à cuisiner !",
-    "login": {
-      "title": "Connexion",
-      "usernamePlaceholder": "Nom d'utilisateur",
-      "passwordPlaceholder": "Mot de passe",
-      "button": "Connexion",
-      "success": "Connexion réussie !",
-      "invalid": "Nom d'utilisateur ou mot de passe invalide"
-    },
-    "register": {
-      "button": "Inscrivez-vous maintenant !"
-    }
+  "welcome": "Bienvenue sur l'application de recettes",
+  "description": "Explorez des recettes, enregistrez vos favoris et commencez à cuisiner !",
+  "login": {
+    "title": "Connexion",
+    "usernamePlaceholder": "Nom d'utilisateur",
+    "passwordPlaceholder": "Mot de passe",
+    "button": "Connexion",
+    "success": "Connexion réussie !",
+    "invalid": "Nom d'utilisateur ou mot de passe invalide"
+  },
+  "register": {
+    "button": "Inscrivez-vous maintenant !"
+  },
+  "welcomeBack": {
+    "title": "Bienvenue !",
+    "description": "Nous sommes ravis de vous revoir. Explorez vos recettes préférées ou découvrez-en de nouvelles !",
+    "button": "Commencez à explorer",
+    "alert": "Commencez à explorer des recettes !"
   }
-  
+}

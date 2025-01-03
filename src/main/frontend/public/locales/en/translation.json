@@ -1,16 +1,21 @@
 {
-    "welcome": "Welcome to the Recipe App",
-    "description": "Explore recipes, register to save your favorites, and start cooking!",
-    "login": {
-      "title": "Login",
-      "usernamePlaceholder": "Username",
-      "passwordPlaceholder": "Password",
-      "button": "Login",
-      "success": "Login successful!",
-      "invalid": "Invalid username or password"
-    },
-    "register": {
-      "button": "Register Now !"
-    }
+  "welcome": "Welcome to the Recipe App",
+  "description": "Explore recipes, register to save your favorites, and start cooking!",
+  "login": {
+    "title": "Login",
+    "usernamePlaceholder": "Username",
+    "passwordPlaceholder": "Password",
+    "button": "Login",
+    "success": "Login successful!",
+    "invalid": "Invalid username or password"
+  },
+  "register": {
+    "button": "Register Now !"
+  },
+  "welcomeBack": {
+    "title": "Welcome Back!",
+    "description": "We are glad to see you again. Explore your favorite recipes or discover new ones!",
+    "button": "Start Exploring",
+    "alert": "Start exploring recipes!"
   }
-  
+}
